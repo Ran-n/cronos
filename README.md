@@ -4,17 +4,19 @@ Programa en python para representar as datas
 Programa en python para representar las fechas  
 
 ------------------
-
+Example:  
 Exemplo:  
+Ejemplo:  
+2019/07/10 09:55:00:00  
 102019071009550000  
 1 02019 07 10 09 55 00 00  
   
-0 		  → a.C 			    → 1bit  
-ou  
-1 		  → d.C 			    → Mismo bit  
-02019 	→ ano 			    → 5bits  
-07 		  → mes 		  	  → 2bits  
-10 		  → día 		  	  → 2bits  
-55 		  → minuto 	  	  → 2bits  
-00 		  → segundo 		  → 2bits  
-00 		  → microsegundo 	→ 2bits  
+0 		  → a.C 			                → 1bit  
+or/ou/o  
+1 		  → d.C 	            		    → Same bit/Mesmo bit/Mismo bit  
+02019 	→ year/ano/año 			        → 5bits  
+07 		  → month/mes 		  	        → 2bits  
+10 		  → day/día 		  	          → 2bits  
+55 		  → minute/minuto 	  	      → 2bits  
+00 		  → second/segundo      		  → 2bits  
+00 		  → microsecond/microsegundo 	→ 2bits  
