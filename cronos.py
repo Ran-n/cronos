@@ -13,7 +13,7 @@ Exemplo:
 
 0 		→ a.C 			→ 1bit
 ou
-1 		→ d.C 			→ Mismo bit
+1 		→ d.C 			→ Mesmo bit
 02019 	→ ano 			→ 5bits
 07 		→ mes 			→ 2bits
 10 		→ día 			→ 2bits
