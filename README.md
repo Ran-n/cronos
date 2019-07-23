@@ -3,6 +3,14 @@ Python program with my own way of representing time as a int number
 Programa en python para representar as datas  
 Programa en python para representar las fechas  
 
+----
+
+## Donations
+
+| Coin 			| Address 										|
+| ------------ 	| ------------ 									|
+| Bitcoin 		| bc1q4gj3t0f4aulrn7z3dtgfxrxsv5c323x5yzvz7r 	|
+
 ------------------
 Example:  
 Exemplo:  
@@ -20,11 +28,3 @@ or/ou/o
 55 		  → minute/minuto 	  	      → 2bits  
 00 		  → second/segundo      		  → 2bits  
 00 		  → microsecond/microsegundo 	→ 2bits  
-
-----
-
-## Donations
-
-| Coin 			| Address 										|
-| ------------ 	| ------------ 									|
-| Bitcoin 		| bc1q4gj3t0f4aulrn7z3dtgfxrxsv5c323x5yzvz7r 	|
