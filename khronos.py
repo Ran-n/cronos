@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #+ Autor:	Ran#
 #+ Creado:	20/07/2019 12:38:02
-#+ Editado:	20/07/2019 13:15:02
+#+ Editado:	01/08/2019 13:16:11
 #------------------------------------------------------------------------------------------------
 """
 formatador de datas en texto estándar
@@ -22,7 +22,7 @@ ou
 00 		→ microsegundo 	→ 2bits
 
 comando para sacar os valores precisos
-date +"%Y-%m-%d %H:%M:%S:%2N" 
+date +"%Y-%m-%d %H:%M:%S:%2N"
 """
 #------------------------------------------------------------------------------------------------
 from datetime import datetime as dt
@@ -36,25 +36,26 @@ def getAgora():
 	mes = str(tempo.month)
 	# igual ca ano formatamos o mes
 	mes = '0'+mes if len(mes) < 2 else mes
-	
+
 	dia = str(tempo.day)
 	# mesmo rollete
 	dia = '0'+dia if len(dia) < 2 else dia
-	
+
 	hora = str(tempo.hour)
 	# mesmo rollete
 	hora = '0'+hora if len(hora) < 2 else hora
-	
+
 	minuto = str(tempo.minute)
 	# mesmo rollete
 	minuto = '0'+minuto if len(minuto) < 2 else minuto
-	
+
 	segundo = str(tempo.second)
 	# mesmo rollete
 	segundo = '0'+segundo if len(segundo) < 2 else segundo
-	
+
 	microsegundo = str(tempo.microsecond)[:2]
 
+	# ao devolver sempre poñemos un 1 porque o tempo agora sempre será d.C.
 	return '1'+ano+mes+dia+hora+minuto+segundo+microsegundo
 #------------------------------------------------------------------------------------------------
 if __name__=="__main__":
