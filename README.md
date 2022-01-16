@@ -1,4 +1,4 @@
-# khronos
+# khronos-ts
 Python program with my own way of representing time as a int number  
 Programa en python para representar as datas  
 Programa en python para representar las fechas  
