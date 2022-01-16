@@ -3,7 +3,7 @@
 # -*- coding: utf-8 -*-
 #+ Autor:	Ran#
 #+ Creado:	2019/07/20 12:38:02
-#+ Editado:	2022/01/16 13:23:10.411769
+#+ Editado:	2022/01/16 13:58:43.543496
 # ------------------------------------------------------------------------------
 from datetime import datetime as dt
 
@@ -48,10 +48,10 @@ def agora() -> str:
             agora.year,
             '%02d' % agora.month,
             '%02d' % agora.day,
-            agora.hour,
-            agora.minute,
-            agora.second,
-            agora.microsecond
+            '%02d' % agora.hour,
+            '%02d' % agora.minute,
+            '%02d' % agora.second,
+            '%06d' % agora.microsecond
             ]
 
     return '+'+''.join([str(ele) for ele in valores])
