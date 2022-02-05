@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: kronus
 Version: 2.2
-Summary: Timestamp module
-Home-page: https://wwww.github.com/Ran-n/kronus
-Author: attr: kronus.__author__
-Author-email: ran-n@tutanota.com
-License: attr: kronus.__license__
-Project-URL: Bug Tracker, https://wwww.github.com/Ran-n/kronus/issues
+Summary: attr: kronus.__descricion__
+Home-page: attr: kronus.__ligazon__
+Author: attr: kronus.__autor__
+Author-email: attr: kronus.__correo__
+License: attr: kronus.__licenza__
+Project-URL: Bug Tracker, attr: kronus.__problemas__
 Platform: UNKNOWN
 Classifier: Development Status :: 3 - Alpha
 Classifier: Environment :: Console
