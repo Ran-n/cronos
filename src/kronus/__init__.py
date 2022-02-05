@@ -23,7 +23,7 @@ RAIZ = os.path.dirname(os.path.abspath(__file__))
 # ------------------------------------------------------------------------------
 
 __nome__ = 'kronus'
-__version__ = '2.2'
+__version__ = '2.3'
 __autor__ = 'Ran#'
 __correo_ = 'ran-n@tutanota.com'
 __creditos__ = 'Ran#'
