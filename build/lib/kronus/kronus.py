@@ -3,12 +3,16 @@
 # -*- coding: utf-8 -*-
 #+ Autor:	Ran#
 #+ Creado:	2019/07/20 12:38:02
-#+ Editado:	2022/02/01 18:35:46.380217
+#+ Editado:	2022/02/05 20:56:13.805844
 # ------------------------------------------------------------------------------
 from datetime import datetime as dt
+import os
+import sys
 
 from .kronus_uteis import lazy_check_types
 from .excepcions import ErroTipado
+
+from kronus import *
 # ------------------------------------------------------------------------------
 # agora
 def agora(separador: str = '') -> str:
@@ -90,4 +94,6 @@ def separar(agora: str) -> str:
                 agora[-6:]          # microsegundo
                 ])
 
+def proba():
+    print(ROOT_DIR)
 # ------------------------------------------------------------------------------

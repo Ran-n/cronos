@@ -1,11 +1,11 @@
 Metadata-Version: 2.1
 Name: kronus
-Version: 2.1
+Version: 2.2
 Summary: Timestamp module
 Home-page: https://wwww.github.com/Ran-n/kronus
-Author: Ran#
+Author: attr: kronus.__author__
 Author-email: ran-n@tutanota.com
-License: GPLv3
+License: attr: kronus.__license__
 Project-URL: Bug Tracker, https://wwww.github.com/Ran-n/kronus/issues
 Platform: UNKNOWN
 Classifier: Development Status :: 3 - Alpha
